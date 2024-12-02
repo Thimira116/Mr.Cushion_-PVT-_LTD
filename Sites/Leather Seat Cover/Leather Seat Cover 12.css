@@ -1,0 +1,611 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          scroll-padding-top: 4rem;
+          scroll-behavior: smooth;
+          list-style: none;
+          text-decoration: none;
+          box-decoration-break: none;
+
+      }
+
+      :root {
+
+          --box-shadow: 2px 2px 10px 14px rgb(176 172 170  / 15%)
+      }
+
+     
+
+      .header {
+          padding: 20px;
+          
+      
+      }
+
+      .header img {
+
+        width: 140px;
+        height: auto;
+
+      }
+
+      h1 {
+
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 40px;
+      }
+
+      h1 font {
+        font-size: 20px;
+      }
+
+      .header p {
+
+        font-size: 20px;
+      }
+
+      h3 {
+        color: rgb(0, 0, 0);
+       }  
+
+      .sub-header {
+        background-color: rgb(234, 97, 12);
+       }  
+       
+       section {
+        background-color: rgb(0, 0, 0);
+       }
+    
+       section h3 {
+        color: white;
+        text-align: center;
+       }       
+
+
+    .product {
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      margin-top: 2rem;
+      padding: 100px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+
+      
+    }
+
+    .detail {
+      background-color: rgb(0, 0, 0);
+      overflow: hidden;
+      padding: 15px;
+    }
+
+   
+    .detail img {
+
+      width: 300px;
+      height: auto;
+      border-radius: 5px;
+      
+    }
+
+   
+    .whatsapp img {
+
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      bottom: 50px;
+      right: 40px;
+    }
+    
+      
+    .Footer {
+
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 30px;
+      background-color: rgb(234, 97, 12);
+      color: azure;
+     
+    }
+
+    .Footer h2 {
+
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding: 10px;
+      
+    }
+
+    .Footer p {
+
+      font-size: 15px;
+    }
+
+    .social {
+
+      display: flex;
+      column-gap: 20px;
+      padding: 10px;
+    }
+
+    .social a {
+
+      font-size: 15px;
+      
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 10px;
+      border: solid;
+      
+    }
+
+    .social a i {
+
+      
+      color: rgb(255, 255, 255);
+      
+
+    }
+
+    .contact {
+
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+    }
+
+    .contact a {
+
+      color: rgb(255, 255, 255);
+    }
+
+    p {
+      padding: 10px;
+    }
+
+    
+
+   @media screen and (max-width:320px)
+   {
+    h1 {
+
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+    h1 font {
+      font-size: 10px;
+     }
+
+    .header img {
+
+      width: 72px;
+      height: auto;
+    }
+
+    p {
+
+      font-size: 13px;
+      padding: 0.5px;
+      font-weight: 50;
+    }
+
+    h3 {
+
+      font-size: 13px;
+      text-align: center;
+    } 
+
+
+  .product {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    
+
+    
+  }
+
+ 
+  .product img {
+
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+   
+  }
+
+ 
+  .whatsapp img{
+
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    
+  }
+  
+    
+  .Footer {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: rgb(234, 97, 12);
+    color: azure;
+   
+  }
+
+  .Footer h2 {
+
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+  }
+
+  .Footer p {
+
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .Footer a {
+    text-align: center;
+  }
+
+  .social {
+
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+  }
+
+  .social a {
+
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    
+    
+  }
+
+  .social a i {
+
+    
+    color: rgb(255, 255, 255);
+    
+
+  }
+
+  .contact {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .contact a {
+
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    padding: 10px;
+  }
+
+   }
+
+   @media screen and (max-width:376px)
+   {
+    h1 {
+
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+    h1 font {
+      font-size: 10px;
+     }
+
+    .header img {
+
+      width: 72px;
+      height: auto;
+    }
+
+    p {
+
+      font-size: 15px;
+      text-align: center;
+    }
+
+    h3 {
+
+      font-size: 13px;
+      padding: 0.5px;
+      font-weight: 50;
+    } 
+
+
+  .product {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    align-content: center;
+    
+
+    
+  }
+
+ 
+  .product img {
+
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+ 
+  .whatsapp img{
+
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    
+  }
+  
+    
+  .Footer {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    color: azure;
+   
+  }
+
+  .Footer h2 {
+
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+  }
+
+  .Footer p {
+
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .Footer a {
+    text-align: center;
+  }
+
+  .social {
+
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+  }
+
+  .social a {
+
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    
+  }
+
+  .social a i {
+
+    
+    color: rgb(255, 255, 255);
+    
+
+  }
+
+  .contact {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .contact a {
+
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    padding: 10px;
+  }
+
+   }
+
+   @media screen and (max-width:426px)
+   {
+    h1 {
+
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+    h1 font {
+      font-size: 10px;
+     }
+
+    .header img {
+
+      width: 72px;
+      height: auto;
+    }
+
+    p {
+
+      font-size: 15px;
+      text-align: center;
+    }
+
+    h3 {
+
+      font-size: 13px;
+      padding: 0.5px;
+      font-weight: 50;
+    } 
+
+
+  .product {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    align-content: center;
+    
+
+    
+  }
+
+ 
+  .product img {
+
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+ 
+  .whatsapp img{
+
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    
+  }
+  
+    
+  .Footer {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    color: azure;
+   
+  }
+
+  .Footer h2 {
+
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+  }
+
+  .Footer p {
+
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .Footer a {
+    text-align: center;
+  }
+
+  .social {
+
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+  }
+
+  .social a {
+
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    
+  }
+
+  .social a i {
+
+    
+    color: rgb(255, 255, 255);
+    
+
+  }
+
+  .contact {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .contact a {
+
+    color: rgb(255, 255, 255);
+  }
+
+  p {
+    padding: 10px;
+  }
+
+   } 
+     
+
+
+     
+
+
+
+
+
+      
+
+      
+      
+
+     
